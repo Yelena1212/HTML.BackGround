@@ -1,0 +1,28 @@
+html, body{
+  height: 100%;
+}
+header{
+
+}
+.top, .process, .contacts, footer{
+  background-color: #443a8b;
+}
+
+.hello, .profile{
+  background-color: #f7f7f7;
+
+}
+.mywork, .myblog, .clients{
+  background-color: #fff;
+
+}
+
+.top, .progress, .contacts, .hello, footer, .myblog, .mywork, .clients{
+  height: 1225px;
+}
+
+.top{
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  margin-bottom: -15%;
+}
+
